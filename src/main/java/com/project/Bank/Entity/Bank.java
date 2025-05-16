@@ -19,5 +19,5 @@ public class Bank {
   private String accountHolderName;
   private Long accountNo;
   private Long accountHolderPhnNo;
-  private Double balance;
+  private String email;
 }

@@ -8,4 +8,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 //In Generics, we use Entity name and Id type
 public interface BankRepository extends JpaRepository<Bank,Long> {
+    Bank findByAccountNo(Long accountNo);
 }
