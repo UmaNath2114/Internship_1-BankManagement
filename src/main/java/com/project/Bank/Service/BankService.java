@@ -8,4 +8,10 @@ public interface BankService {
     Bank addBankAccountdetails(Bank b);
 
     List<Bank> getAccountDetails();
+
+    Boolean delectAccountDetails(Long id);
+
+    Bank updateAccountDetails(Long id, Bank b);
+
+    List<Bank> getCustomerDetails(String accountHolderName);
 }
